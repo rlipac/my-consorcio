@@ -100,8 +100,15 @@ header .nav-link:hover {
     padding-bottom:10px;
   }
 
+  footer{
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: -10px;
+ }
 
  .my-footer{
+    
      padding-left: 50px;
      padding-top: 30px;
     margin-top: 40px;
