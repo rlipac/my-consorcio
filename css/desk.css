@@ -1,0 +1,206 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.my-navbar{
+   margin-left: 4%;
+   background: #fafafa;
+}
+.my-btn-toggler{
+    display: block;
+    margin: auto;
+    border-radius: 45%;
+}
+
+.nav-item span{
+   position: relative;
+   top:7px;
+}
+.nav-item img{
+    width: 90px;
+    height: 90px;
+}
+
+.fondo-desk{
+    background: #eeeeee;
+}
+
+header{
+    background-color: white;
+  
+    
+}
+
+header .nav-link {
+  
+   color:#424242;
+    
+}
+header .nav-link:hover {
+   
+    color: #4fc3f7;
+     
+ }
+ 
+
+.desk-container{
+   display: inline-block;
+   margin-left: 7%; 
+   background:white;
+   padding-left: 20px;
+   padding-right: 25px;
+   padding-top: 20px;
+   border-radius: 6px;
+  
+ 
+  
+}
+
+.header-desk{
+    width: 100%;
+    height: 83%;
+}
+.desk-title{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.col-sm-3 img{
+    margin-left:30px; 
+    width: 170px;
+    height: auto;
+    margin-bottom: -200px;
+}
+
+
+.hidenn-menu {
+    display: none;
+  }
+  
+ .toggle-menu{
+      font-size: 12px;
+ 
+  }
+
+  .btn.btn-primary{
+    width: 200px; 
+  }
+   
+  .btn-body{
+    width: 200px;
+    height: auto;
+    display: inline-block;
+    background-color: #fafafa ;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+
+
+ .my-footer{
+     padding-left: 50px;
+     padding-top: 30px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fafafa ;
+   
+  }
+
+ .item{
+     width: 30%;
+     margin-top: 40px;
+
+ }
+
+
+
+.logos-footer img{
+    display: inline;
+    width: 35px;
+    height: auto;
+}
+.p-contacto{
+    display: inline;
+    font-size: 0.7rem;
+
+}
+
+@media (max-width: 1024px) { 
+
+
+    .desk-container{
+        display: inline-block;
+        margin-left: 3.4%; 
+        background:white;
+        padding-left: 20px;
+        padding-right: 25px;
+        padding-top: 20px;
+        border-radius: 6px;
+       
+      
+       
+     }
+   
+    .my-navbar{
+        margin-left: -15px;
+     }
+     .my-footer{
+      margin-top: 0px;
+       
+      }
+}
+
+@media (max-width: 1199.98px) { 
+
+
+    .desk-container{  
+        margin-left: 3.4%; 
+     }
+}
+
+@media (max-width: 767.98px) {
+    
+
+    .desk-container{ 
+        margin-top: 10px; 
+        margin-left: 0%; 
+     }
+     h1.desk-title{
+        font-size: 20px;
+        margin-top: -3px;
+        margin-bottom: -10px
+     }
+     .my-footer{
+       
+      
+     }
+     
+ }
+
+ @media  (max-width: 500px) { 
+
+     .btn-body{
+        width: 210px;
+       border-radius: 5px;
+        height: auto;
+       
+      }
+    
+      .menu-mostrar{
+         
+          display: inline-block;
+          margin: 0px;
+          padding: 0px;
+      }
+  
+
+    
+  
+    
+ }
