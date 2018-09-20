@@ -101,14 +101,11 @@ header .nav-link:hover {
   }
 
   footer{
-    width: 100%;
-    height: auto;
+   
     position: relative;
-    bottom: -10px;
+    bottom: 0px;
  }
-
  .my-footer{
-    
      padding-left: 50px;
      padding-top: 30px;
     margin-top: 40px;
@@ -183,11 +180,7 @@ header .nav-link:hover {
         margin-top: -3px;
         margin-bottom: -10px
      }
-     .my-footer{
-       
-      
-     }
-     
+  
  }
 
  @media  (max-width: 500px) { 
